@@ -34,7 +34,7 @@ class Assembly:
         lines = [f"{self.title} ({self.batch_size} items):"]
         for c in self.components:
             lines.append(f"  {c.name}: {c.units} units (${c.total_price()})")
-        lines.append(f"Per item: ${self.price_per_item()}")
+        lines.append(f"Per item: ${self.price_per_item()}\n")
         return "\n".join(lines)
 a = Assembly("Drone", 8)
 a.add_component(Component("Motor", 32.0, 15.0))
