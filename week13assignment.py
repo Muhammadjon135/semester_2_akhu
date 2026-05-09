@@ -58,4 +58,3 @@ TICKET <Yoda> price=120000
 [QR → Obi-Wan] Show this at entrance. Paid 70000 so'm
 [QR → Yoda] Show this at entrance. Paid 120000 so'm
 '''
-
