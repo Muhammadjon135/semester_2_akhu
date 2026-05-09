@@ -41,7 +41,7 @@ class QrSender(ABC):
 class TelegramQrSender(QrSender):
     def send(self, bookings):
         for booking in bookings:
-            print(f"[QR → {booking.viewer}] Show this at entrance. Paid {booking.ticket_price()} CHF")
+            print(f"[QR → {booking.viewer}] Show this at entrance. Paid {booking.ticket_price()} so'm")
 
 
 cinema = TicketSystem()
